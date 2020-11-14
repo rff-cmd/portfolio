@@ -124,7 +124,7 @@
         <!-- Social buttons -->
         <ul class="list-unstyled list-inline text-center">
           <li class="list-inline-item">
-            <a class="btn btn-floating btn-fb ">
+            <a class="btn-floating btn-fb ">
               <i class="fa fa-facebook"> </i>
             </a>
           </li>
@@ -144,7 +144,7 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn btn-unique btn-lg btn-rounded mr-0">
+            <a class="btn-floating btn-rounded mx-1">
               <i class="fa fa-dribbble"> </i>
             </a>
           </li>

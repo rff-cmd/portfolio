@@ -21,6 +21,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
         $this->load->view('Cnavbar');
+        
         $this->load->view('Chome');
         $this->load->view('Cfooter');
     }

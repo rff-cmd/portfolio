@@ -1,6 +1,19 @@
   <!--/.header-->
   <!-- Start your project here-->
   <!-- Main layout -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  border-radius: 50%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+  
   <main>
 
     <section>
@@ -19,8 +32,13 @@
               </video>
               <!-- Carousel content -->
               <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
+                  
                 <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
-                  <li>
+                  
+                <li>
+                     <img src="img/img_avatar.png" alt="Avatar" style="width:200px" class="center">
+                </li>
+                <li>
                     <h1 class="font-weight-bold text-uppercase">Rff</h1>
                   </li>
                   <li>
