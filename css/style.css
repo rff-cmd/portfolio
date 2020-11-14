@@ -1,0 +1,77 @@
+ .top-nav-collapse {
+ 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important;
+ 	background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%) !important;
+ 	background-image: linear-gradient(120deg, #23252654 50%, #41434590 100%) !important;
+
+
+
+ }
+
+
+
+ /* Scrollbar */
+
+ ::-webkit-scrollbar {
+ 	width: 8px;
+ }
+
+ /* Track */
+
+ ::-webkit-scrollbar-track {
+ 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+ 	-webkit-border-radius: 10px;
+ 	border-radius: 10px;
+ }
+
+ /* Handle */
+
+ ::-webkit-scrollbar-thumb {
+
+
+ 	border-radius: 10px;
+ 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+ 	background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+ 	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+
+
+ }
+
+ ::-webkit-scrollbar-thumb:window-inactive {
+
+ 	border-radius: 10px;
+ 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+ 	background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+ 	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+
+ }
+
+
+
+ @media only screen and (orientation: portrait) and (device-width: 320px),
+ (device-width: 768px) {
+ 	#MainBanner {
+ 		/*display:none !important */
+ 		content: url("Cloud/images/Mainscreen-iphone.png");
+ 		background-size: 500px 373px;
+ 		-moz-background-size: 500px 373px;
+ 		-webkit-background-size: 500px 373px;
+
+ 		background-attachment: fixed;
+
+ 	}
+
+
+
+
+
+
+
+ }
+
+ /*
+
+  * {
+    border: 1px solid #f00 !important;
+  }
+  
+*/

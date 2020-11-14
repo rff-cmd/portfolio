@@ -1,0 +1,119 @@
+.pills-rounded .nav-item .nav-link {
+	border-radius: 10em;
+}
+
+.pills-light-purple .nav-item .nav-link.active {
+	background-color: #ba68c8;
+}
+
+.pills-outline-red .nav-item .nav-link {
+	border: 2px solid #fff;
+	color: #666;
+	background-color: transparent;
+}
+
+.pills-outline-red .nav-item .nav-link:hover {
+	border: 2px solid #eee;
+}
+
+.pills-outline-red .nav-item .nav-link.active {
+	border: 2px solid #f44336;
+	color: #f44336;
+}
+
+.pills-outline-red .nav-item .nav-link.active:hover {
+	border: 2px solid #f44336;
+	color: #f44336;
+}
+
+.pills-outline-green .nav-item .nav-link {
+	border: 2px solid #fff;
+	color: #666;
+	background-color: transparent;
+}
+
+.pills-outline-green .nav-item .nav-link:hover {
+	border: 2px solid #eee;
+}
+
+.pills-outline-green .nav-item .nav-link.active {
+	border: 2px solid #4caf50;
+	color: #4caf50;
+}
+
+.pills-outline-green .nav-item .nav-link.active:hover {
+	border: 2px solid #4caf50;
+	color: #4caf50;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@keyframes scale-up-center {
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+.rotate-scale-down-hor {
+	-webkit-animation: rotate-scale-down-hor 0.65s linear both;
+	animation: rotate-scale-down-hor 0.65s linear both;
+}
+
+@-webkit-keyframes rotate-scale-down-hor {
+	0% {
+		-webkit-transform: scale(1) rotateX(0);
+		transform: scale(1) rotateX(0);
+	}
+
+	50% {
+		-webkit-transform: scale(0.5) rotateX(-180deg);
+		transform: scale(0.5) rotateX(-180deg);
+	}
+
+	100% {
+		-webkit-transform: scale(1) rotateX(-360deg);
+		transform: scale(1) rotateX(-360deg);
+	}
+}
+
+@keyframes rotate-scale-down-hor {
+	0% {
+		-webkit-transform: scale(1) rotateX(0);
+		transform: scale(1) rotateX(0);
+	}
+
+	50% {
+		-webkit-transform: scale(0.5) rotateX(-180deg);
+		transform: scale(0.5) rotateX(-180deg);
+	}
+
+	100% {
+		-webkit-transform: scale(1) rotateX(-360deg);
+		transform: scale(1) rotateX(-360deg);
+	}
+}
+
+nav {
+	padding: 0;
+}
